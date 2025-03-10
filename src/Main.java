@@ -19,6 +19,12 @@ public class Main {
         }
     }
 
-    
+    public static String isEven(int num){
+        if (num % 2 == 0) {
+            return num + " is even.";
+        } else{
+            return num + "is odd.";
+        }
+    }
 
 }
