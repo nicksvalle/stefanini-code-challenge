@@ -7,6 +7,7 @@ public class Main {
 
         int num = sc.nextInt();
 
+        System.out.println(numberState(num) + " " + isEven(num) + " " + isDivisibleByThree(num));
     }
 
     public static String numberState(int num){
@@ -28,6 +29,11 @@ public class Main {
     }
 
     public static String isDivisibleByThree(int num){
+
+        if (num == 0) {
+            return num + " is not divisible by 3";
+        }
+
         if (num % 3 == 0) {
             return num + " is divisible by 3";
         } else{
