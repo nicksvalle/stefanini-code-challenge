@@ -9,14 +9,16 @@ public class Main {
 
     }
 
-    public static void numberState(int num){
+    public static String numberState(int num){
         if (num > 0) {
-            System.out.println(num + " is positive.");
+            return num + " is positive.";
         } else if (num < 0) {
-            System.out.println(num + " is negative.");
+            return num + " is negative.";
         } else {
-            System.out.println(num + " is zero.");
+            return num + " is zero.";
         }
     }
+
+    
 
 }
